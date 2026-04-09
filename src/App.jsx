@@ -19,7 +19,7 @@ const sections = [
   },
   {
     id: "design", step: "02", kicker: "Key concept",
-    title: "How aligned are you with the community around you?",
+    title: "How aligned are you with the context of the visualization?",
     body: ["When you encounter a visualization on social media, you're viewing it within the context where it was encountered. ", <strong key="b">This study examines how the ideological distance between a viewer and the context of a visualization changes how it is percieved and trusted. </strong>, " Alignment is measured as the gap between the participant's own ideology and their perception of the subreddit's ideology, both rated on a 0–100 scale."],
     viz: "design",
   },
@@ -259,7 +259,7 @@ function OverviewPanel() {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
         <div className="soft-box" style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           <div className="soft-title">Same map</div>
-          <p className="soft-text" style={{ margin: 0 }}>Identical synthetic choropleth across all 6 conditions.</p>
+          <p className="soft-text" style={{ margin: 0 }}>Identical choropleth across all 6 conditions.</p>
           <img src="/choropleth.png" alt="The choropleth map used in the study"
             style={{ width: "100%", borderRadius: 3, border: "1px solid #e2e0db", marginTop: "auto" }} />
         </div>
@@ -397,7 +397,7 @@ function CredibilityPanel() {
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 4 }}>
           {[
-            ["66% lower odds", "of rating the chart as telling the whole story — the most sensitive measure"],
+            ["66% lower odds", "of rating the chart as telling the whole story (the most sensitive measure)"],
             ["57% lower odds", "of rating the chart as trustworthy at full misalignment"],
           ].map(([stat, desc]) => (
             <div key={stat} className="soft-box" style={{ padding: "12px 14px" }}>
