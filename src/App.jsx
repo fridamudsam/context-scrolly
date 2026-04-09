@@ -375,7 +375,7 @@ function DesignPanel() {
 
       {/* Footer note */}
       <p style={{ margin: 0, fontFamily: "Inter, sans-serif", fontSize: "0.78rem", color: "#aaa", lineHeight: 1.6 }}>
-        Cutpoints anchored to the ANES 7-point ideology scale — each category spans ~14 points on the 0–100 slider.
+        Cutpoints anchored to the ANES 7-point ideology scale. Each category spans ~14 points on the 0–100 slider.
       </p>
     </div>
   );
