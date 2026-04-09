@@ -528,7 +528,7 @@ function ObjectivityPanel() {
     {
       label: "The subreddit",
       example: "The only thing influencing my responses was this chart being shared under the Democrats subreddit on Reddit. They are biased and they lie.",
-      note: "Most participants noticed the community — and let it color their judgment.",
+      note: "Most participants noticed the community in a way that impacted their judgment.",
     },
     {
       label: "The platform",
