@@ -549,7 +549,7 @@ function ObjectivityPanel() {
         <div className="panel-eyebrow">Finding 5</div>
         <h3>Context operates in nested layers</h3>
         <p style={{ margin: "6px 0 0", fontFamily: "Inter, sans-serif", fontSize: "0.88rem", color: "#777", lineHeight: 1.6 }}>
-          About a third of participants reflected on the community context around the chart. But <em>which</em> layer of context they noticed varied — and so did its effect on trust.
+          About a third of participants reflected on the community context around the chart, but <em>which</em> layer of context they noticed varied.
         </p>
       </div>
 
