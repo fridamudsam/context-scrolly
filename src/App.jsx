@@ -157,7 +157,7 @@ function Hero() {
         <div className="hero-eyebrow">Research · Data Visualization</div>
         <h1>Context Matters: How Online Communities Shape Trust in Data Visualizations</h1>
         <p className="hero-deck">
-          A controlled experiment on how social context shapes credibility.
+          A controlled experiment on how social context shapes visualization credibility.
         </p>
         <div className="hero-meta">
           <div className="meta-item">
